@@ -10,3 +10,14 @@
 --- b'class' - используйте маркировку b''
 --- используйте списки и циклы, не дублируйте функции
 """
+
+
+words = [
+	b'class',
+	b'function',
+	b'method',
+]
+
+print('Список слов: ' + str(words))
+for i in words:
+	print(f"Слово: {i}, тип:  {type(i)}, длинна: {len(i)}")
