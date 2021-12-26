@@ -30,10 +30,12 @@ with open('test_file.txt', 'rb') as file:
 	file_content = file.read()
 encoding = detect(file_content)['encoding']
 print(f"Кодировка файла: {encoding}")
-if encoding == 'utf-8':
+# if encoding == 'utf-8':
+try:
 	with open('test_file.txt', 'r', encoding='utf-8') as file:
 		print(file.read())
-else:
+# else:
+except:
 	with open('test_file.txt', 'r', encoding=encoding) as file:
 		print(file.read())
 
