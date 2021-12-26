@@ -26,14 +26,14 @@
 from chardet import detect
 
 
-with open('tets_file.txt', 'rb') as file:
+with open('test_file.txt', 'rb') as file:
 	file_content = file.read()
 encoding = detect(file_content)['encoding']
 print(f"Кодировка файла: {encoding}")
 if encoding == 'utf-8':
-	with open('tets_file.txt', 'r', encoding='utf-8') as file:
+	with open('test_file.txt', 'r', encoding='utf-8') as file:
 		print(file.read())
 else:
-	with open('tets_file.txt', 'r', encoding=encoding) as file:
+	with open('test_file.txt', 'r', encoding=encoding) as file:
 		print(file.read())
 
