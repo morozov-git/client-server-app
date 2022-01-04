@@ -36,3 +36,50 @@ os_code_list, os_type_list. В этой же функции создать гл�
 
 ПРОШУ ВАС НЕ УДАЛЯТЬ СЛУЖЕБНЫЕ ФАЙЛЫ TXT И ИТОГОВЫЙ ФАЙЛ CSV!!!
 """
+import csv
+import re
+
+
+os_prod_list = []
+os_name_list = []
+os_code_list = []
+os_type_list = []
+main_data = []
+headers = ['Изготовитель системы', 'Название ОС', 'Код продукта', 'Тип системы']
+
+def get_data():
+    for i in range(1, 4):
+        with open(f'info_{i}.txt', 'r', encoding='utf-8') as file:
+            for line in file:
+                if re.match('Изготовитель системы', line) or re.match('Название ОС', line) or re.match('Код продукта', line) or re.match('Тип системы', line):
+                    key = (re.findall('(.+)[:]', line)).pop()
+                    item = (re.findall('[:]\s+(\w+.*$)', line)).pop()
+                    if key == 'Изготовитель системы':
+                        os_prod_list.append(item)
+                    if key == 'Название ОС':
+                        os_name_list.append(item)
+                    if key == 'Код продукта':
+                        os_code_list.append(item)
+                    if key == 'Тип системы':
+                        os_type_list.append(item)
+    # print(os_prod_list, os_name_list, os_code_list, os_type_list)
+
+    main_data.append(headers)
+    for i in range(0, len(os_prod_list)):
+        system_data = []
+        system_data.append(os_prod_list.pop(0))
+        system_data.append(os_name_list.pop(0))
+        system_data.append(os_code_list.pop(0))
+        system_data.append(os_type_list.pop(0))
+        # print(system_data)
+        main_data.append(system_data)
+    # print(main_data)
+
+def write_to_csv(file_name):
+    get_data()
+    with open(file_name, "w") as file:
+        file_writer = csv.writer(file)
+        for row in main_data:
+            file_writer.writerow(row)
+
+write_to_csv('system_data.csv')
