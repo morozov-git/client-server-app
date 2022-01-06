@@ -4,9 +4,9 @@ import sys
 import json
 import socket
 import time
-from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
+from Lesson_4.common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
-from common.utils import get_message, send_message
+from Lesson_4.common.utils import get_message, send_message
 
 class ClientApp:
     def create_presence(account_name='Guest'):
@@ -26,7 +26,7 @@ class ClientApp:
         return out
 
 
-    def process_ans(message):
+    def process_answer(message):
         '''
         Функция разбирает ответ сервера
         :param message:
@@ -39,9 +39,11 @@ class ClientApp:
         raise ValueError
 
 
-    def main():
+    def main(*args, **kwargs):
         '''Загружаем параметы коммандной строки'''
         # client.py 192.168.0.100 8079
+        if args[0] == 'test':
+            sys.argv = args
         try:
             server_address = sys.argv[2]
             server_port = int(sys.argv[3])
@@ -52,7 +54,12 @@ class ClientApp:
             server_port = DEFAULT_PORT
         except ValueError:
             print('В качестве порта может быть указано только число в диапазоне от 1024 до 65535.')
-            sys.exit(1)
+            # sys.exit('BAD PORT')
+            # raise SystemExit('BAD PORT')
+            # raise ValueError('BAD PORT')
+            return 'BAD PORT'
+            # sys.exit(1)
+
 
         # Инициализация сокета и обмен
 
@@ -61,7 +68,7 @@ class ClientApp:
         message_to_server = ClientApp.create_presence()
         send_message(transport, message_to_server)
         try:
-            answer = ClientApp.process_ans(get_message(transport))
+            answer = ClientApp.process_answer(get_message(transport))
             print(answer)
         except (ValueError, json.JSONDecodeError):
             print('Не удалось декодировать сообщение сервера.')
@@ -69,3 +76,5 @@ class ClientApp:
 
 if __name__ == '__main__':
     ClientApp.main()
+
+# client.py 192.168.0.100 8888

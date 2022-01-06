@@ -31,7 +31,7 @@ class ServerApp:
         '''
         Загрузка параметров командной строки, если нет параметров, то задаём значения по умоланию.
         Сначала обрабатываем порт:
-        server.py -p 8079 -a 192.168.0.100
+        server.py -p 8079 -a 192.168.0.86
         :return:
         '''
 
@@ -75,10 +75,10 @@ class ServerApp:
         while True:
             client, client_address = transport.accept()
             try:
-                message_from_cient = get_message(client)
-                print(message_from_cient)
+                message_from_client = get_message(client)
+                print(message_from_client)
                 # {'action': 'presence', 'time': 1573760672.167031, 'user': {'account_name': 'Guest'}}
-                response = ServerApp.process_client_message(message_from_cient)
+                response = ServerApp.process_client_message(message_from_client)
                 send_message(client, response)
                 client.close()
             except (ValueError, json.JSONDecodeError):
@@ -88,3 +88,5 @@ class ServerApp:
 
 if __name__ == '__main__':
     ServerApp.main()
+
+# server.py -p 8888 -a 192.168.0.86
