@@ -3,9 +3,9 @@
 import socket
 import sys
 import json
-from common.variables import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, \
+from Lesson_4.common.variables import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, \
     PRESENCE, TIME, USER, ERROR, DEFAULT_PORT
-from common.utils import get_message, send_message
+from Lesson_4.common.utils import get_message, send_message
 
 class ServerApp:
 
@@ -27,13 +27,17 @@ class ServerApp:
         }
 
 
-    def main():
+    def main(*args, **kwargs):
         '''
         Загрузка параметров командной строки, если нет параметров, то задаём значения по умоланию.
         Сначала обрабатываем порт:
         server.py -p 8079 -a 192.168.0.86
         :return:
         '''
+
+        # переменные для тестов
+        if args[0] == 'test':
+            sys.argv = args
 
         try:
             if '-p' in sys.argv:
@@ -44,11 +48,15 @@ class ServerApp:
                 raise ValueError
         except IndexError:
             print('После параметра -\'p\' необходимо указать номер порта.')
-            sys.exit(1)
+            # sys.exit(1)
+            # для тестов
+            return 'PORT NOT SET'
+
         except ValueError:
-            print(
-                'В качастве порта может быть указано только число в диапазоне от 1024 до 65535.')
-            sys.exit(1)
+            print('В качастве порта может быть указано только число в диапазоне от 1024 до 65535.')
+            # sys.exit(1)
+            # для тестов
+            return 'BAD PORT'
 
         # Затем загружаем какой адрес слушать
 
@@ -90,3 +98,4 @@ if __name__ == '__main__':
     ServerApp.main()
 
 # server.py -p 8888 -a 192.168.0.86
+# server.py -p 8888 -a 192.168.0.101
