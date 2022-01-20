@@ -5,9 +5,9 @@ import json
 import socket
 import time
 
-from Lesson_4.common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
+from Lesson_5.common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
-from Lesson_4.common.utils import get_message, send_message
+from Lesson_5.common.utils import get_message, send_message
 
 class ClientApp:
     def create_presence(account_name='Guest'):
@@ -43,8 +43,13 @@ class ClientApp:
     def main(*args, **kwargs):
         '''Загружаем параметы коммандной строки'''
         # client.py 192.168.0.100 8079
-        if args[0] == 'test':
-            sys.argv = args
+
+        # переменные для тестов
+        if args:
+            if args[0] == 'test':
+                sys.argv = args
+
+
         try:
             server_address = sys.argv[2]
             server_port = int(sys.argv[3])
@@ -78,4 +83,4 @@ class ClientApp:
 if __name__ == '__main__':
     ClientApp.main()
 
-# client.py 192.168.0.100 8888
+# client.py 192.168.0.61 8888

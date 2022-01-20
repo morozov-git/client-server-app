@@ -2,7 +2,7 @@ import sys
 import os
 import unittest
 # sys.path.append(os.path.join(os.getcwd(), '..'))
-from Lesson_4.common.variables import RESPONSE, ERROR, USER, ACCOUNT_NAME, TIME, ACTION, PRESENCE, TEST_MESSAGE, DEFAULT_PORT
+from Lesson_5.common.variables import RESPONSE, ERROR, USER, ACCOUNT_NAME, TIME, ACTION, PRESENCE, TEST_MESSAGE, DEFAULT_PORT
 from ..client import ClientApp
 
 class TeasClientApp(unittest.TestCase):

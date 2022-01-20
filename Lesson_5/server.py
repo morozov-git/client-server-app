@@ -3,9 +3,9 @@
 import socket
 import sys
 import json
-from Lesson_4.common.variables import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, \
+from Lesson_5.common.variables import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, \
     PRESENCE, TIME, USER, ERROR, DEFAULT_PORT
-from Lesson_4.common.utils import get_message, send_message
+from Lesson_5.common.utils import get_message, send_message
 
 class ServerApp:
 
@@ -36,8 +36,9 @@ class ServerApp:
         '''
 
         # переменные для тестов
-        if args[0] == 'test':
-            sys.argv = args
+        if args:
+            if args[0] == 'test':
+                sys.argv = args
 
         try:
             if '-p' in sys.argv:
@@ -97,5 +98,5 @@ class ServerApp:
 if __name__ == '__main__':
     ServerApp.main()
 
-# server.py -p 8888 -a 192.168.0.86
+# server.py -p 8888 -a 192.168.0.61
 # server.py -p 8888 -a 192.168.0.101

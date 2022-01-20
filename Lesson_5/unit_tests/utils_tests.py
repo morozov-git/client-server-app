@@ -5,8 +5,8 @@ import os
 import unittest
 import json
 sys.path.append(os.path.join(os.getcwd(), '..'))
-from Lesson_4.common.variables import RESPONSE, ERROR, USER, ACCOUNT_NAME, TIME, ACTION, PRESENCE, ENCODING
-from Lesson_4.common.utils import get_message, send_message
+from Lesson_5.common.variables import RESPONSE, ERROR, USER, ACCOUNT_NAME, TIME, ACTION, PRESENCE, ENCODING
+from Lesson_5.common.utils import get_message, send_message
 
 class TestSocket:
     '''

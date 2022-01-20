@@ -2,8 +2,8 @@ import sys
 import os
 import unittest
 # sys.path.append(os.path.join(os.getcwd(), '..'))
-from Lesson_4.common.variables import RESPONSE, ERROR, USER, ACCOUNT_NAME, TIME, ACTION, PRESENCE
-from Lesson_4.server import ServerApp
+from Lesson_5.common.variables import RESPONSE, ERROR, USER, ACCOUNT_NAME, TIME, ACTION, PRESENCE
+from Lesson_5.server import ServerApp
 
 
 class TestServerApp(unittest.TestCase):
