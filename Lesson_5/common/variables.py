@@ -1,5 +1,7 @@
 """Константы"""
 
+import logging
+
 # Порт по умолчанию для сетевого ваимодействия
 DEFAULT_PORT = 7777
 # IP адрес по умолчанию для подключения клиента
@@ -22,3 +24,6 @@ PRESENCE = 'presence'
 RESPONSE = 'response'
 ERROR = 'error'
 TEST_MESSAGE = 'TestMassage'
+
+# Текущий уровень логирования
+LOGGING_LEVEL = logging.DEBUG
