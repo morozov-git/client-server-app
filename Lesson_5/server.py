@@ -105,7 +105,7 @@ class ServerApp:
                 SERVER_LOGGER.info(f'Сообщение от клиента: {message_from_client}')
                 # {'action': 'presence', 'time': 1573760672.167031, 'user': {'account_name': 'Guest'}}
                 response = ServerApp.process_client_message(message_from_client)
-                SERVER_LOGGER.debug(f'Отправка сообщения: {response} клиенту: {client}.')
+                SERVER_LOGGER.debug(f'Отправка сообщения: {response} клиенту: {message_from_client["user"]["account_name"]}.')
                 send_message(client, response)
                 client.close()
                 SERVER_LOGGER.debug(f'Клиент остановлен.')
