@@ -7,9 +7,9 @@ import time
 import argparse
 import logging
 from errors import ReqFieldMissingError
-from Lesson_5.common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
+from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
-from Lesson_5.common.utils import get_message, send_message
+from common.utils import get_message, send_message
 
 
 # Инициализация клиентского логера
@@ -45,7 +45,7 @@ class ClientApp:
             if message[RESPONSE] == 200:
                 return '200 : OK'
             return f'400 : {message[ERROR]}'
-        raise ValueError
+        raise ReqFieldMissingError(RESPONSE)
 
 
     def main(*args, **kwargs):
@@ -55,6 +55,7 @@ class ClientApp:
         # переменные для тестов
         if args:
             if args[0] == 'test':
+                CLIENT_LOGGER.debug(f'Запущен тест ClientApp с параметрами: {args}')
                 sys.argv = args
 
 
@@ -67,7 +68,8 @@ class ClientApp:
             server_address = DEFAULT_IP_ADDRESS
             server_port = DEFAULT_PORT
         except ValueError:
-            print('В качестве порта может быть указано только число в диапазоне от 1024 до 65535.')
+            # print('В качестве порта может быть указано только число в диапазоне от 1024 до 65535.')
+            CLIENT_LOGGER.error(f'В качестве порта может быть указано только число в диапазоне от 1024 до 65535.')
             # sys.exit('BAD PORT')
             # raise SystemExit('BAD PORT')
             # raise ValueError('BAD PORT')
@@ -78,8 +80,8 @@ class ClientApp:
                            f' адрес сервера: {server_address},\n'
                            f' порт: {server_port}')
 
-        # Инициализация сокета и обмен
 
+        # Инициализация сокета и обмен
         transport = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         transport.connect((server_address, server_port))
         message_to_server = ClientApp.create_presence()
@@ -87,7 +89,7 @@ class ClientApp:
         try:
             answer = ClientApp.process_answer(get_message(transport))
             CLIENT_LOGGER.info(f'Принят ответ от сервера {answer}')
-            print(answer)
+            # print(answer)
         # except (ValueError, json.JSONDecodeError):
         #     print('Не удалось декодировать сообщение сервера.')
         except json.JSONDecodeError:
