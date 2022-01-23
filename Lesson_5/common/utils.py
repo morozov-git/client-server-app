@@ -1,7 +1,7 @@
 """Утилиты"""
 
 import json
-from Lesson_5.common.variables import MAX_PACKAGE_LENGTH, ENCODING
+from variables import MAX_PACKAGE_LENGTH, ENCODING
 
 def get_message(client):
     '''

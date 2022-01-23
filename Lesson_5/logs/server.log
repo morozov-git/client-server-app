@@ -1,0 +1,10 @@
+2022-01-24 01:51:20,965 CRITICAL config_server_log.py Критическая ошибка
+2022-01-24 01:51:20,965 ERROR config_server_log.py Ошибка
+2022-01-24 01:51:20,966 DEBUG config_server_log.py Отладочная информация
+2022-01-24 01:51:20,966 INFO config_server_log.py Информационное сообщение
+2022-01-24 01:52:03,850 DEBUG server.py Сервер запущен. Адрес: 192.168.0.81 Порт: 8888
+2022-01-24 01:52:23,496 INFO server.py Установлено соедение с Клиентом: ('192.168.0.81', 50100)
+2022-01-24 01:52:23,497 INFO server.py Сообщение от клиента: {'action': 'presence', 'time': 1642978343.496137, 'user': {'account_name': 'Guest'}}
+2022-01-24 01:52:23,497 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1642978343.496137, 'user': {'account_name': 'Guest'}}
+2022-01-24 01:52:23,497 DEBUG server.py Отправка сообщения: {'response': 200} клиенту: <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.81', 8888), raddr=('192.168.0.81', 50100)>.
+2022-01-24 01:52:23,498 DEBUG server.py Клиент остановлен.
