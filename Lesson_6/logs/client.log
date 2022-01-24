@@ -158,3 +158,18 @@
 2022-01-24 22:20:10,334 DEBUG client.py Сформировано presence сообщение для пользователя Guest
 2022-01-24 22:20:10,336 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
 2022-01-24 22:20:10,337 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-24 22:31:50,342 DEBUG loging_decos.py Звпущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции ClientApp().
+2022-01-24 22:31:50,343 INFO client.py Запущен клиент с парамертами: (адрес сервера: 192.168.0.48, порт: 8888)
+2022-01-24 22:31:50,343 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 22:31:50,344 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-24 22:31:50,344 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-24 22:38:23,335 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции ClientApp().Вызов из функции <module>
+2022-01-24 22:38:23,335 INFO client.py Запущен клиент с парамертами: (адрес сервера: 192.168.0.48, порт: 8888)
+2022-01-24 22:38:23,335 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 22:38:23,336 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-24 22:38:23,336 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-24 22:43:03,641 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции ClientApp().Вызов из функции <module>
+2022-01-24 22:43:03,642 INFO client.py Запущен клиент с парамертами: (адрес сервера: 192.168.0.48, порт: 8888)
+2022-01-24 22:43:03,642 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 22:43:10,240 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-24 22:43:10,249 INFO client.py Принят ответ от сервера 200 : OK

@@ -35,7 +35,7 @@ class Log:
             ret = func_to_log(*args, **kwargs)
             # ret = __call__(self)
             # ret = self
-            LOGGER.debug(f'Была вызвана функция {func_to_log.__name__},'
+            LOGGER.debug(f'Запущено приложение {func_to_log.__name__},'
                          f'c параметрами {traceback.sys.argv}'
                          f' функции {traceback.format_stack()[0].strip().split()[-1]}.')
                         # f'Вызов из функции {inspect.stack()[1][3]}'
