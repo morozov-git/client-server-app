@@ -183,3 +183,24 @@
 2022-01-24 22:20:10,335 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1643052010.334176, 'user': {'account_name': 'Guest'}}
 2022-01-24 22:20:10,336 DEBUG server.py Отправка сообщения: {'response': 200} клиенту: Guest.
 2022-01-24 22:20:10,336 DEBUG server.py Клиент остановлен.
+2022-01-24 22:31:07,903 DEBUG loging_decos.py Звпущено приложение ServerApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/server.py', 'server.py', '-p', '8888', '-a', '192.168.0.48'] функции ServerApp().
+2022-01-24 22:31:07,903 DEBUG server.py Сервер запущен. Адрес: 192.168.0.48 Порт: 8888
+2022-01-24 22:31:50,343 INFO server.py Установлено соедение с Клиентом: ('192.168.0.48', 52398)
+2022-01-24 22:31:50,343 INFO server.py Сообщение от клиента: {'action': 'presence', 'time': 1643052710.3434, 'user': {'account_name': 'Guest'}}
+2022-01-24 22:31:50,343 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1643052710.3434, 'user': {'account_name': 'Guest'}}
+2022-01-24 22:31:50,344 DEBUG server.py Отправка сообщения: {'response': 200} клиенту: Guest.
+2022-01-24 22:31:50,344 DEBUG server.py Клиент остановлен.
+2022-01-24 22:38:11,332 DEBUG loging_decos.py Запущено приложение ServerApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/server.py', 'server.py', '-p', '8888', '-a', '192.168.0.48'] функции ServerApp().Вызов из функции <module>
+2022-01-24 22:38:11,332 DEBUG server.py Сервер запущен. Адрес: 192.168.0.48 Порт: 8888
+2022-01-24 22:38:23,336 INFO server.py Установлено соедение с Клиентом: ('192.168.0.48', 52424)
+2022-01-24 22:38:23,336 INFO server.py Сообщение от клиента: {'action': 'presence', 'time': 1643053103.335863, 'user': {'account_name': 'Guest'}}
+2022-01-24 22:38:23,336 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1643053103.335863, 'user': {'account_name': 'Guest'}}
+2022-01-24 22:38:23,336 DEBUG server.py Отправка сообщения: {'response': 200} клиенту: Guest.
+2022-01-24 22:38:23,336 DEBUG server.py Клиент остановлен.
+2022-01-24 22:42:38,920 DEBUG loging_decos.py Запущено приложение ServerApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/server.py', 'server.py', '-p', '8888', '-a', '192.168.0.48'] функции main().Вызов из функции <module>
+2022-01-24 22:42:54,396 DEBUG server.py Сервер запущен. Адрес: 192.168.0.48 Порт: 8888
+2022-01-24 22:43:03,642 INFO server.py Установлено соедение с Клиентом: ('192.168.0.48', 52434)
+2022-01-24 22:43:09,845 INFO server.py Сообщение от клиента: {'action': 'presence', 'time': 1643053383.642551, 'user': {'account_name': 'Guest'}}
+2022-01-24 22:43:09,847 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1643053383.642551, 'user': {'account_name': 'Guest'}}
+2022-01-24 22:43:09,848 DEBUG server.py Отправка сообщения: {'response': 200} клиенту: Guest.
+2022-01-24 22:43:10,240 DEBUG server.py Клиент остановлен.
