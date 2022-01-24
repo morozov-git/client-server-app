@@ -18,7 +18,8 @@ SERVER_LOGGER = logging.getLogger('server')
 @Log()
 class ServerApp:
 
-    def process_client_message(message):
+    @classmethod
+    def process_client_message(cls, message):
         '''
         Обработчик сообщений от клиентов, принимает словарь -
         сообщение от клинта, проверяет корректность,
@@ -36,8 +37,8 @@ class ServerApp:
             ERROR: 'Bad Request'
         }
 
-
-    def main(*args, **kwargs):
+    @classmethod
+    def main(cls, *args, **kwargs):
         '''
         Загрузка параметров командной строки, если нет параметров, то задаём значения по умоланию.
         Сначала обрабатываем порт:
@@ -117,7 +118,8 @@ class ServerApp:
 
 
 if __name__ == '__main__':
-    ServerApp().main()
+    ServerApp = ServerApp()
+    ServerApp.main()
 
 # server.py -p 8888 -a 192.168.0.48
 # server.py -p 8888 -a 192.168.0.101
