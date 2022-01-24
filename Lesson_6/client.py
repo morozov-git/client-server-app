@@ -10,11 +10,13 @@ from errors import ReqFieldMissingError
 from common.variables import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
 from common.utils import get_message, send_message
-
+from loging_decos import Log
 
 # Инициализация клиентского логера
 CLIENT_LOGGER = logging.getLogger('client')
 
+
+@Log()
 class ClientApp:
     def create_presence(account_name='Guest'):
         '''
@@ -105,6 +107,7 @@ class ClientApp:
 
 
 if __name__ == '__main__':
+    ClientApp = ClientApp()
     ClientApp.main()
 
-# client.py 192.168.0.61 8888
+# client.py 192.168.0.48 8888

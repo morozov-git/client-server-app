@@ -9,13 +9,13 @@ from common.utils import get_message, send_message
 import logging
 import time
 import logs.config_server_log
+from loging_decos import Log
 
 
-
-# Инициализация клиентского логера
+# Инициализация серверного логера
 SERVER_LOGGER = logging.getLogger('server')
 
-
+@Log()
 class ServerApp:
 
     def process_client_message(message):
@@ -117,7 +117,7 @@ class ServerApp:
 
 
 if __name__ == '__main__':
-    ServerApp.main()
+    ServerApp().main()
 
-# server.py -p 8888 -a 192.168.0.61
+# server.py -p 8888 -a 192.168.0.48
 # server.py -p 8888 -a 192.168.0.101
