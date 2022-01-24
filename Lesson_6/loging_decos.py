@@ -33,9 +33,11 @@ class Log:
         def log_saver(*args, **kwargs):
             """Обертка"""
             ret = func_to_log(*args, **kwargs)
-            LOGGER.debug(f'Была вызвана функция {func_to_log.__name__} c параметрами {args}, {kwargs}. '
-                         f'Вызов из модуля {func_to_log.__module__}. Вызов из'
-                         f' функции {traceback.format_stack()[0].strip().split()[-1]}.'
-                         f'Вызов из функции {inspect.stack()[1][3]}')
+            # ret = __call__(self)
+            # ret = self
+            LOGGER.debug(f'Была вызвана функция {func_to_log.__name__},'
+                         f'c параметрами {traceback.sys.argv}'
+                         f' функции {traceback.format_stack()[0].strip().split()[-1]}.')
+                        # f'Вызов из функции {inspect.stack()[1][3]}'
             return ret
         return log_saver

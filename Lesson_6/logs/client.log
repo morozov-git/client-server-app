@@ -37,3 +37,124 @@
   адрес сервера: 192.168.0.48,
  порт: 8888
 2022-01-24 19:57:37,952 DEBUG client.py Сформировано presence сообщение для пользователя <__main__.ClientApp object at 0x106beb280>
+2022-01-24 20:07:27,584 DEBUG loging_decos.py Была вызвана функция ClientApp c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции <module>
+2022-01-24 20:08:55,007 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:09:20,017 DEBUG loging_decos.py Была вызвана функция ClientApp c параметрами (), {}. Вызов из модуля __main__. Вызов из функции ClientApp().Вызов из функции <module>
+2022-01-24 20:09:20,018 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:09:52,694 DEBUG loging_decos.py Была вызвана функция ClientApp c параметрами (), {}. Вызов из модуля __main__. Вызов из функции ClientApp().Вызов из функции <module>
+2022-01-24 20:09:52,695 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:09:52,695 DEBUG client.py Сформировано presence сообщение для пользователя <__main__.ClientApp object at 0x107372fd0>
+2022-01-24 20:10:28,959 DEBUG loging_decos.py Была вызвана функция ClientApp c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции <module>
+2022-01-24 20:11:39,331 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:12:52,222 DEBUG client.py Сформировано presence сообщение для пользователя <__main__.ClientApp object at 0x10797f160>
+2022-01-24 20:19:10,123 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:19:51,078 DEBUG client.py Сформировано presence сообщение для пользователя <__main__.ClientApp object at 0x104fe1a90>
+2022-01-24 20:20:28,404 DEBUG loging_decos.py Была вызвана функция create_presence c параметрами (<__main__.ClientApp object at 0x104fe1a90>,), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-01-24 20:22:51,957 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:23:33,659 DEBUG client.py Сформировано presence сообщение для пользователя <__main__.ClientApp object at 0x10ab20580>
+2022-01-24 20:23:51,514 DEBUG loging_decos.py Была вызвана функция create_presence c параметрами (<__main__.ClientApp object at 0x10ab20580>,), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-01-24 20:44:02,837 DEBUG loging_decos.py Была вызвана функция ClientApp c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции <module>
+2022-01-24 20:44:54,499 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:45:25,705 DEBUG loging_decos.py Была вызвана функция ClientApp c параметрами (), {}. Вызов из модуля __main__. Вызов из функции ClientApp().Вызов из функции <module>
+2022-01-24 20:45:25,706 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:45:25,706 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 20:45:25,711 ERROR client.py Не удалось декодировать полученную Json строку.
+2022-01-24 20:46:40,599 DEBUG loging_decos.py Была вызвана функция ClientApp c параметрами (), {}. Вызов из модуля __main__. Вызов из функции ClientApp().Вызов из функции <module>
+2022-01-24 20:46:40,599 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:46:40,601 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 20:46:40,604 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-24 20:46:40,604 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-24 20:46:52,409 DEBUG loging_decos.py Была вызвана функция ClientApp c параметрами (), {}. Вызов из модуля __main__. Вызов из функции ClientApp().Вызов из функции <module>
+2022-01-24 20:46:52,410 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:46:52,410 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 20:46:52,411 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-24 20:46:52,411 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-24 20:46:56,564 DEBUG loging_decos.py Была вызвана функция ClientApp c параметрами (), {}. Вызов из модуля __main__. Вызов из функции ClientApp().Вызов из функции <module>
+2022-01-24 20:46:56,564 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:46:56,565 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 20:46:56,565 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-24 20:46:56,565 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-24 20:47:52,213 DEBUG loging_decos.py Была вызвана функция ClientApp c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции <module>
+2022-01-24 20:48:04,705 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:48:31,278 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 20:50:46,279 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-24 20:50:58,386 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-24 20:52:24,216 DEBUG loging_decos.py Была вызвана функция ClientApp c параметрами (), {}. Вызов из модуля __main__. Вызов из функции ClientApp().Вызов из функции <module>
+2022-01-24 20:52:24,216 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 20:52:24,217 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 20:52:24,218 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-24 20:52:24,218 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-24 21:06:21,807 DEBUG loging_decos.py Была вызвана функция client.py c параметрами 192.168.0.48, 8888.Вызов из функции ClientApp:.Вызов из функции <module>
+2022-01-24 21:07:01,928 DEBUG loging_decos.py Была вызвана функция client.py c параметрами 192.168.0.48, 8888.Вызов из функции ClientApp:.Вызов из функции <module>
+2022-01-24 21:08:30,287 DEBUG loging_decos.py Была вызвана функция client.py c параметрами 192.168.0.48, 8888.Вызов из функции main().Вызов из функции <module>
+2022-01-24 21:10:07,535 DEBUG loging_decos.py Была вызвана функция client.py c параметрами 192.168.0.48, 8888.Вызов из функции ClientApp:.Вызов из функции <module>
+2022-01-24 21:12:40,297 DEBUG loging_decos.py Была вызвана функция client.py c параметрами 192.168.0.48, 8888.Вызов из функции ClientApp:.Вызов из функции <module>
+2022-01-24 21:13:31,986 DEBUG loging_decos.py Была вызвана функция client.py c параметрами 192.168.0.48, 8888.Вызов из функции ClientApp:.Вызов из функции <module>
+2022-01-24 21:20:00,651 DEBUG loging_decos.py Была вызвана функция ClientApp c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции <module>
+2022-01-24 22:07:47,432 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции ClientApp().
+2022-01-24 22:07:47,432 INFO client.py Запущен клиент с парамертами:
+  адрес сервера: 192.168.0.48,
+ порт: 8888
+2022-01-24 22:07:47,433 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 22:07:47,434 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-24 22:07:47,434 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-24 22:08:45,693 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции ClientApp().
+2022-01-24 22:08:45,693 INFO client.py Запущен клиент с парамертами:
+        адрес сервера: 192.168.0.48,
+       порт: 8888
+2022-01-24 22:08:45,694 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 22:08:45,696 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-24 22:08:45,697 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-24 22:09:43,114 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции ClientApp().
+2022-01-24 22:09:43,115 INFO client.py Запущен клиент с парамертами: (адрес сервера: 192.168.0.48, порт: 8888)
+2022-01-24 22:09:43,116 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 22:09:43,119 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-24 22:09:43,119 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-24 22:11:25,061 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции ClientApp().main().
+2022-01-24 22:11:25,061 INFO client.py Запущен клиент с парамертами: (адрес сервера: 192.168.0.48, порт: 8888)
+2022-01-24 22:12:15,291 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции ClientApp().main().
+2022-01-24 22:12:15,291 INFO client.py Запущен клиент с парамертами: (адрес сервера: 192.168.0.48, порт: 8888)
+2022-01-24 22:12:15,291 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции ClientApp().main().
+2022-01-24 22:12:15,292 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 22:12:15,292 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции ClientApp().main().
+2022-01-24 22:12:15,314 ERROR client.py Не удалось декодировать полученную Json строку.
+2022-01-24 22:13:18,070 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции main().
+2022-01-24 22:13:26,968 INFO client.py Запущен клиент с парамертами: (адрес сервера: 192.168.0.48, порт: 8888)
+2022-01-24 22:14:32,764 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции main().
+2022-01-24 22:14:50,503 INFO client.py Запущен клиент с парамертами: (адрес сервера: 192.168.0.48, порт: 8888)
+2022-01-24 22:15:01,961 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции main().
+2022-01-24 22:15:16,228 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 22:16:48,987 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции main().
+2022-01-24 22:16:55,500 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции main().
+2022-01-24 22:18:40,498 ERROR client.py Не удалось декодировать полученную Json строку.
+2022-01-24 22:20:10,333 DEBUG loging_decos.py Была вызвана функция ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_6/client.py', 'client.py', '192.168.0.48', '8888'] функции ClientApp().
+2022-01-24 22:20:10,333 INFO client.py Запущен клиент с парамертами: (адрес сервера: 192.168.0.48, порт: 8888)
+2022-01-24 22:20:10,334 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-24 22:20:10,336 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-24 22:20:10,337 INFO client.py Принят ответ от сервера 200 : OK

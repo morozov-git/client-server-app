@@ -18,7 +18,9 @@ CLIENT_LOGGER = logging.getLogger('client')
 
 @Log()
 class ClientApp:
-    def create_presence(account_name='Guest'):
+
+    @classmethod
+    def create_presence(cls, account_name='Guest'):
         '''
         Функция генерирует запрос о присутствии клиента
         :param account_name:
@@ -35,8 +37,8 @@ class ClientApp:
         CLIENT_LOGGER.debug(f'Сформировано {PRESENCE} сообщение для пользователя {account_name}')
         return out
 
-
-    def process_answer(message):
+    @classmethod
+    def process_answer(cls, message):
         '''
         Функция разбирает ответ сервера
         :param message:
@@ -49,8 +51,8 @@ class ClientApp:
             return f'400 : {message[ERROR]}'
         raise ReqFieldMissingError(RESPONSE)
 
-
-    def main(*args, **kwargs):
+    @classmethod
+    def main(cls, *args, **kwargs):
         '''Загружаем параметы коммандной строки'''
         # client.py 192.168.0.100 8079
 
@@ -78,9 +80,7 @@ class ClientApp:
             return 'BAD PORT'
             # sys.exit(1)
 
-        CLIENT_LOGGER.info(f'Запущен клиент с парамертами:\n '
-                           f' адрес сервера: {server_address},\n'
-                           f' порт: {server_port}')
+        CLIENT_LOGGER.info(f'Запущен клиент с парамертами: (адрес сервера: {server_address}, порт: {server_port})')
 
 
         # Инициализация сокета и обмен
@@ -91,7 +91,7 @@ class ClientApp:
         try:
             answer = ClientApp.process_answer(get_message(transport))
             CLIENT_LOGGER.info(f'Принят ответ от сервера {answer}')
-            # print(answer)
+            print(answer)  # Печатаем ответ от сервера в косоль для наглядности
         # except (ValueError, json.JSONDecodeError):
         #     print('Не удалось декодировать сообщение сервера.')
         except json.JSONDecodeError:
