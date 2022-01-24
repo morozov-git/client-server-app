@@ -1,0 +1,4 @@
+2022-01-24 01:17:16,720 CRITICAL config_client_log.py Критическая ошибка
+2022-01-24 01:17:16,721 ERROR config_client_log.py Ошибка
+2022-01-24 01:17:16,721 DEBUG config_client_log.py Отладочная информация
+2022-01-24 01:17:16,721 INFO config_client_log.py Информационное сообщение

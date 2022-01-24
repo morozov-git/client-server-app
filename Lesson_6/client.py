@@ -55,6 +55,7 @@ class ClientApp:
         # переменные для тестов
         if args:
             if args[0] == 'test':
+                CLIENT_LOGGER.debug(f'Запущен тест ClientApp с параметрами: {args}')
                 sys.argv = args
 
 
@@ -67,7 +68,8 @@ class ClientApp:
             server_address = DEFAULT_IP_ADDRESS
             server_port = DEFAULT_PORT
         except ValueError:
-            print('В качестве порта может быть указано только число в диапазоне от 1024 до 65535.')
+            # print('В качестве порта может быть указано только число в диапазоне от 1024 до 65535.')
+            CLIENT_LOGGER.error(f'В качестве порта может быть указано только число в диапазоне от 1024 до 65535.')
             # sys.exit('BAD PORT')
             # raise SystemExit('BAD PORT')
             # raise ValueError('BAD PORT')
@@ -87,7 +89,7 @@ class ClientApp:
         try:
             answer = ClientApp.process_answer(get_message(transport))
             CLIENT_LOGGER.info(f'Принят ответ от сервера {answer}')
-            print(answer)
+            # print(answer)
         # except (ValueError, json.JSONDecodeError):
         #     print('Не удалось декодировать сообщение сервера.')
         except json.JSONDecodeError:
