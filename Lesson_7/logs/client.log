@@ -173,3 +173,46 @@
 2022-01-24 22:43:03,642 DEBUG client.py Сформировано presence сообщение для пользователя Guest
 2022-01-24 22:43:10,240 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
 2022-01-24 22:43:10,249 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-27 22:16:35,446 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_7/client.py', 'client.py', '192.168.0.49', '8888'] функции ClientApp().
+2022-01-27 22:16:58,762 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_7/client.py', 'client.py', '192.168.0.49', '8888'] функции ClientApp().
+2022-01-27 22:16:58,789 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888, режим работы: listen
+2022-01-27 22:17:18,955 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_7/client.py', 'client.py', '192.168.0.49', '8888'] функции ClientApp().
+2022-01-27 22:17:18,972 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888, режим работы: listen
+2022-01-27 22:17:18,972 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-27 22:17:18,975 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-27 22:17:18,975 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-27 22:18:08,182 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_7/client_2.py', 'client.py', '192.168.0.49', '8888'] функции ClientApp().
+2022-01-27 22:18:08,201 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888, режим работы: listen
+2022-01-27 22:18:08,203 DEBUG client_2.py Сформировано presence сообщение для пользователя Guest
+2022-01-27 22:18:08,204 DEBUG client_2.py Разбор сообщения от сервера: {'response': 200}
+2022-01-27 22:18:08,204 INFO client_2.py Принят ответ от сервера 200 : OK
+2022-01-27 22:19:51,749 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_7/client_2.py', 'client.py', '192.168.0.49', '8888', '-m', 'send'] функции ClientApp().
+2022-01-27 22:19:51,764 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888, режим работы: send
+2022-01-27 22:19:51,764 DEBUG client_2.py Сформировано presence сообщение для пользователя Guest
+2022-01-27 22:19:51,765 DEBUG client_2.py Разбор сообщения от сервера: {'response': 200}
+2022-01-27 22:19:51,765 INFO client_2.py Принят ответ от сервера 200 : OK
+2022-01-27 22:20:19,609 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643311219.609202, 'account_name': 'Guest', 'mess_text': 'message from client2'}
+2022-01-27 22:20:19,935 INFO client.py От пользователя:Guest получено сообщение :
+ message from client2
+2022-01-27 22:21:01,144 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643311261.144672, 'account_name': 'Guest', 'mess_text': 'fdhgfdh'}
+2022-01-27 22:21:01,186 INFO client.py От пользователя:Guest получено сообщение :
+ fdhgfdh
+2022-01-27 22:21:08,976 INFO client_2.py Завершение работы по команде пользователя.
+2022-01-27 22:29:09,518 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_7/client_2.py', 'client.py', '192.168.0.49', '8888', '-m', 'send', '-u', 'TestSender'] функции ClientApp().
+2022-01-27 22:29:09,546 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888, режим работы: send
+2022-01-27 22:29:46,464 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_7/client.py', 'client.py', '192.168.0.49', '8888'] функции ClientApp().
+2022-01-27 22:29:46,471 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888, режим работы: listen
+2022-01-27 22:29:46,472 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-27 22:29:46,986 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-27 22:29:46,987 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-27 22:29:51,928 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_7/client_2.py', 'client.py', '192.168.0.49', '8888', '-m', 'send', '-u', 'TestSender'] функции ClientApp().
+2022-01-27 22:29:51,969 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888, режим работы: send
+2022-01-27 22:29:51,969 DEBUG client_2.py Сформировано presence сообщение для пользователя Guest
+2022-01-27 22:29:52,491 DEBUG client_2.py Разбор сообщения от сервера: {'response': 200}
+2022-01-27 22:29:52,491 INFO client_2.py Принят ответ от сервера 200 : OK
+2022-01-27 22:30:16,098 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643311816.098779, 'account_name': 'TestSender', 'mess_text': 'ghbdtn'}
+2022-01-27 22:30:16,138 INFO client.py От пользователя:TestSender получено сообщение :
+ ghbdtn
+2022-01-27 22:30:27,560 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643311827.56052, 'account_name': 'TestSender', 'mess_text': 'sdfsdaf'}
+2022-01-27 22:30:27,703 INFO client.py От пользователя:TestSender получено сообщение :
+ sdfsdaf
