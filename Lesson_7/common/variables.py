@@ -18,12 +18,15 @@ ACTION = 'action'
 TIME = 'time'
 USER = 'user'
 ACCOUNT_NAME = 'account_name'
+SENDER = 'sender'
 
 # Прочие ключи, используемые в протоколе
 PRESENCE = 'presence'
 RESPONSE = 'response'
 ERROR = 'error'
+MESSAGE = 'message'
 TEST_MESSAGE = 'TestMassage'
+MESSAGE_TEXT = 'mess_text'
 
 # Текущий уровень логирования
 LOGGING_LEVEL = logging.DEBUG
