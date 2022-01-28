@@ -1,0 +1,41 @@
+2022-01-24 01:51:20,965 CRITICAL config_server_log.py Критическая ошибка
+2022-01-24 01:51:20,965 ERROR config_server_log.py Ошибка
+2022-01-24 01:51:20,966 DEBUG config_server_log.py Отладочная информация
+2022-01-24 01:51:20,966 INFO config_server_log.py Информационное сообщение
+2022-01-24 01:52:03,850 DEBUG server.py Сервер запущен. Адрес: 192.168.0.81 Порт: 8888
+2022-01-24 01:52:23,496 INFO server.py Установлено соедение с Клиентом: ('192.168.0.81', 50100)
+2022-01-24 01:52:23,497 INFO server.py Сообщение от клиента: {'action': 'presence', 'time': 1642978343.496137, 'user': {'account_name': 'Guest'}}
+2022-01-24 01:52:23,497 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1642978343.496137, 'user': {'account_name': 'Guest'}}
+2022-01-24 01:52:23,497 DEBUG server.py Отправка сообщения: {'response': 200} клиенту: <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.81', 8888), raddr=('192.168.0.81', 50100)>.
+2022-01-24 01:52:23,498 DEBUG server.py Клиент остановлен.
+2022-01-24 01:58:56,028 DEBUG server.py Сервер запущен. Адрес: 192.168.0.81 Порт: 8888
+2022-01-24 01:59:48,335 INFO server.py Установлено соедение с Клиентом: ('192.168.0.81', 50109)
+2022-01-24 01:59:54,107 INFO server.py Сообщение от клиента: {'action': 'presence', 'time': 1642978748.601038, 'user': {'account_name': 'Guest'}}
+2022-01-24 02:00:03,073 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1642978748.601038, 'user': {'account_name': 'Guest'}}
+2022-01-24 02:02:43,518 DEBUG server.py Отправка сообщения: {'response': 200} клиенту: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.81', 8888), raddr=('192.168.0.81', 50109)>.
+2022-01-24 02:05:15,091 DEBUG server.py Сервер запущен. Адрес: 192.168.0.81 Порт: 8888
+2022-01-24 02:05:23,105 INFO server.py Установлено соедение с Клиентом: ('192.168.0.81', 50117)
+2022-01-24 02:05:25,639 INFO server.py Сообщение от клиента: {'action': 'presence', 'time': 1642979123.104644, 'user': {'account_name': 'Guest'}}
+2022-01-24 02:05:26,181 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1642979123.104644, 'user': {'account_name': 'Guest'}}
+2022-01-24 02:06:19,821 DEBUG server.py Сервер запущен. Адрес: 192.168.0.81 Порт: 8888
+2022-01-24 02:06:31,216 INFO server.py Установлено соедение с Клиентом: ('192.168.0.81', 50120)
+2022-01-24 02:06:31,217 INFO server.py Сообщение от клиента: {'action': 'presence', 'time': 1642979191.216641, 'user': {'account_name': 'Guest'}}
+2022-01-24 02:06:31,217 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1642979191.216641, 'user': {'account_name': 'Guest'}}
+2022-01-24 02:06:43,030 DEBUG server.py Сервер запущен. Адрес: 192.168.0.81 Порт: 8888
+2022-01-24 02:06:54,002 DEBUG server.py Сервер запущен. Адрес: 192.168.0.81 Порт: 8888
+2022-01-24 02:07:11,586 DEBUG server.py Сервер запущен. Адрес: 192.168.0.81 Порт: 8888
+2022-01-24 02:07:16,776 INFO server.py Установлено соедение с Клиентом: ('192.168.0.81', 50121)
+2022-01-24 02:07:16,777 INFO server.py Сообщение от клиента: {'action': 'presence', 'time': 1642979236.777112, 'user': {'account_name': 'Guest'}}
+2022-01-24 02:07:16,777 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1642979236.777112, 'user': {'account_name': 'Guest'}}
+2022-01-24 02:08:34,059 DEBUG server.py Сервер запущен. Адрес: 192.168.0.81 Порт: 8888
+2022-01-24 02:08:40,526 INFO server.py Установлено соедение с Клиентом: ('192.168.0.81', 50124)
+2022-01-24 02:08:40,527 INFO server.py Сообщение от клиента: {'action': 'presence', 'time': 1642979320.5263228, 'user': {'account_name': 'Guest'}}
+2022-01-24 02:08:40,527 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1642979320.5263228, 'user': {'account_name': 'Guest'}}
+2022-01-24 02:08:40,528 DEBUG server.py Отправка сообщения: {'response': 200} клиенту: <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.81', 8888), raddr=('192.168.0.81', 50124)>.
+2022-01-24 02:08:40,529 DEBUG server.py Клиент остановлен.
+2022-01-24 02:10:41,471 DEBUG server.py Сервер запущен. Адрес: 192.168.0.81 Порт: 8888
+2022-01-24 02:10:44,616 INFO server.py Установлено соедение с Клиентом: ('192.168.0.81', 50139)
+2022-01-24 02:10:44,616 INFO server.py Сообщение от клиента: {'action': 'presence', 'time': 1642979444.6164742, 'user': {'account_name': 'Guest'}}
+2022-01-24 02:10:44,617 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1642979444.6164742, 'user': {'account_name': 'Guest'}}
+2022-01-24 02:10:44,617 DEBUG server.py Отправка сообщения: {'response': 200} клиенту: Guest.
+2022-01-24 02:10:44,617 DEBUG server.py Клиент остановлен.
