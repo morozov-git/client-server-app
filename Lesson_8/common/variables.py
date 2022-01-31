@@ -18,7 +18,8 @@ ACTION = 'action'
 TIME = 'time'
 USER = 'user'
 ACCOUNT_NAME = 'account_name'
-SENDER = 'sender'
+SENDER = 'from'
+DESTINATION = 'to'
 
 # Прочие ключи, используемые в протоколе
 PRESENCE = 'presence'
@@ -27,6 +28,17 @@ ERROR = 'error'
 MESSAGE = 'message'
 TEST_MESSAGE = 'TestMassage'
 MESSAGE_TEXT = 'mess_text'
+EXIT = 'exit'
 
 # Текущий уровень логирования
 LOGGING_LEVEL = logging.DEBUG
+
+
+# Словари - ответы:
+# 200
+RESPONSE_200 = {RESPONSE: 200}
+# 400
+RESPONSE_400 = {
+    RESPONSE: 400,
+    ERROR: None
+}
