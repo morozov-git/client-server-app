@@ -216,3 +216,221 @@
 2022-01-27 22:30:27,560 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643311827.56052, 'account_name': 'TestSender', 'mess_text': 'sdfsdaf'}
 2022-01-27 22:30:27,703 INFO client.py От пользователя:TestSender получено сообщение :
  sdfsdaf
+2022-01-31 22:36:15,464 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-m', 'send', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 22:37:14,062 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 22:37:14,109 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 22:37:14,111 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-31 22:37:14,622 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 22:37:14,623 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-31 22:40:32,478 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 22:40:32,504 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 22:40:32,505 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-01-31 22:40:32,507 DEBUG client.py Разбор сообщения от сервера: {'response': 400, 'error': 'Имя пользователя уже занято.'}
+2022-01-31 22:40:32,508 INFO client.py Принят ответ от сервера 400 : Имя пользователя уже занято.
+2022-01-31 22:42:00,806 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-m', 'send', '-u', 'TestSender2'] функции main().
+2022-01-31 22:42:31,543 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции main().
+2022-01-31 22:43:03,886 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 22:43:12,347 DEBUG client_2.py Сформировано presence сообщение для пользователя Guest
+2022-01-31 22:43:14,115 DEBUG client_2.py Разбор сообщения от сервера: {'response': 400, 'error': 'Имя пользователя уже занято.'}
+2022-01-31 22:43:14,852 INFO client_2.py Принят ответ от сервера 400 : Имя пользователя уже занято.
+2022-01-31 22:46:17,494 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции main().
+2022-01-31 22:46:28,452 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 22:46:34,686 DEBUG client_2.py Сформировано presence сообщение для пользователя Guest
+2022-01-31 22:46:48,276 DEBUG client_2.py Разбор сообщения от сервера: {'response': 400, 'error': 'Имя пользователя уже занято.'}
+2022-01-31 22:48:52,224 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции main().
+2022-01-31 22:49:07,292 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 22:49:11,951 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 22:49:18,821 DEBUG client_2.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 22:49:19,746 INFO client_2.py Принят ответ от сервера 200 : OK
+2022-01-31 22:52:19,429 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции main().
+2022-01-31 22:53:33,619 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции ClientApp().
+2022-01-31 22:53:33,632 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 22:53:33,632 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 22:53:34,144 DEBUG client_2.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 22:53:34,145 INFO client_2.py Принят ответ от сервера 200 : OK
+2022-01-31 22:54:43,450 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции ClientApp().
+2022-01-31 22:54:43,469 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 22:54:43,470 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 22:54:43,973 DEBUG client_2.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 22:54:43,973 INFO client_2.py Принят ответ от сервера 200 : OK
+2022-01-31 22:55:57,792 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции ClientApp().
+2022-01-31 22:55:57,812 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 22:55:57,812 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 22:55:57,813 DEBUG client_2.py Разбор сообщения от сервера: {'response': 400, 'error': 'Имя пользователя уже занято.'}
+2022-01-31 22:55:57,813 INFO client_2.py Принят ответ от сервера 400 : Имя пользователя уже занято.
+2022-01-31 22:55:57,814 CRITICAL client_2.py Потеряно соединение с сервером.
+2022-01-31 22:57:17,254 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции ClientApp().
+2022-01-31 22:57:17,279 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 22:57:17,280 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 22:57:17,785 DEBUG client_2.py Разбор сообщения от сервера: {'response': 400, 'error': 'Имя пользователя уже занято.'}
+2022-01-31 22:57:17,785 INFO client_2.py Принят ответ от сервера 400 : Имя пользователя уже занято.
+2022-01-31 22:57:17,786 CRITICAL client_2.py Потеряно соединение с сервером.
+2022-01-31 22:58:19,087 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 22:58:19,106 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 22:58:19,107 DEBUG client.py Сформировано presence сообщение для пользователя TestSender1
+2022-01-31 22:58:19,614 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 22:58:19,615 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-31 22:58:35,989 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-31 22:59:59,710 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 22:59:59,762 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 22:59:59,763 DEBUG client.py Сформировано presence сообщение для пользователя TestSender1
+2022-01-31 23:00:00,269 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 23:00:00,269 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-31 23:00:06,460 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции ClientApp().
+2022-01-31 23:00:06,477 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:00:06,478 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 23:00:06,479 DEBUG client_2.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 23:00:06,479 INFO client_2.py Принят ответ от сервера 200 : OK
+2022-01-31 23:00:58,292 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции ClientApp().
+2022-01-31 23:00:58,340 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:00:58,341 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 23:00:58,848 DEBUG client_2.py Разбор сообщения от сервера: {'response': 400, 'error': 'Имя пользователя уже занято.'}
+2022-01-31 23:00:58,848 INFO client_2.py Принят ответ от сервера 400 : Имя пользователя уже занято.
+2022-01-31 23:00:58,848 CRITICAL client_2.py Потеряно соединение с сервером.
+2022-01-31 23:01:03,832 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 23:01:03,846 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:01:03,846 DEBUG client.py Сформировано presence сообщение для пользователя TestSender1
+2022-01-31 23:01:04,351 DEBUG client.py Разбор сообщения от сервера: {'response': 400, 'error': 'Имя пользователя уже занято.'}
+2022-01-31 23:01:04,352 INFO client.py Принят ответ от сервера 400 : Имя пользователя уже занято.
+2022-01-31 23:01:04,352 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-31 23:01:43,811 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643659303.810905, 'from': 'TestSender1', 'to': 'TestClient1', 'mess_text': 'sadffasfasf'}
+2022-01-31 23:01:43,811 INFO client.py Отправлено сообщение для пользователя TestClient1
+2022-01-31 23:02:16,903 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643659336.90372, 'from': 'TestSender1', 'to': 'TestSender1', 'mess_text': 'dasdasd'}
+2022-01-31 23:02:16,912 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-31 23:02:30,366 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 23:02:30,386 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:02:30,387 DEBUG client.py Сформировано presence сообщение для пользователя TestSender1
+2022-01-31 23:02:30,894 DEBUG client.py Разбор сообщения от сервера: {'response': 400, 'error': 'Имя пользователя уже занято.'}
+2022-01-31 23:02:30,894 INFO client.py Принят ответ от сервера 400 : Имя пользователя уже занято.
+2022-01-31 23:02:30,895 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-31 23:02:42,507 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643659362.507841, 'from': 'TestSender1', 'to': 'TestSender2', 'mess_text': 'adsasdasd'}
+2022-01-31 23:02:42,509 INFO client.py Отправлено сообщение для пользователя TestSender2
+2022-01-31 23:03:27,106 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643659407.106785, 'from': 'TestSender2', 'to': 'TestSender1', 'mess_text': 'fsasfas'}
+2022-01-31 23:03:27,116 INFO client_2.py Отправлено сообщение для пользователя TestSender1
+2022-01-31 23:03:51,142 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции main().
+2022-01-31 23:04:00,088 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:04:02,916 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 23:04:03,903 DEBUG client_2.py Разбор сообщения от сервера: {'response': 400, 'error': 'Имя пользователя уже занято.'}
+2022-01-31 23:04:04,399 INFO client_2.py Принят ответ от сервера 400 : Имя пользователя уже занято.
+2022-01-31 23:04:05,825 CRITICAL client_2.py Потеряно соединение с сервером.
+2022-01-31 23:04:37,436 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643659477.436051, 'from': 'TestSender2', 'to': 'TestSender2', 'mess_text': 'asdfas'}
+2022-01-31 23:04:37,437 INFO client_2.py Отправлено сообщение для пользователя TestSender2
+2022-01-31 23:05:35,625 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643659535.625487, 'from': 'TestSender2', 'to': 'TestSender1', 'mess_text': 'asfgfsdg'}
+2022-01-31 23:05:35,636 CRITICAL client_2.py Потеряно соединение с сервером.
+2022-01-31 23:05:59,147 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции main().
+2022-01-31 23:07:41,338 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 23:07:41,375 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:08:08,702 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 23:08:08,726 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:08:08,727 DEBUG client.py Сформировано presence сообщение для пользователя TestSender1
+2022-01-31 23:08:09,240 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 23:08:09,240 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-31 23:08:09,241 DEBUG client.py Запущены процессы
+2022-01-31 23:08:21,954 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643659701.9548512, 'from': 'TestSender1', 'to': 'TestSender2', 'mess_text': 'dasfa'}
+2022-01-31 23:08:21,955 INFO client.py Отправлено сообщение для пользователя TestSender2
+2022-01-31 23:09:18,907 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции ClientApp().
+2022-01-31 23:09:18,930 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:09:18,932 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 23:09:19,436 DEBUG client_2.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 23:09:19,436 INFO client_2.py Принят ответ от сервера 200 : OK
+2022-01-31 23:09:19,437 DEBUG client_2.py Запущены процессы
+2022-01-31 23:09:38,898 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643659778.898027, 'from': 'TestSender2', 'to': 'TestSender1', 'mess_text': 'fgjghdjghj'}
+2022-01-31 23:09:38,906 INFO client_2.py Отправлено сообщение для пользователя TestSender1
+2022-01-31 23:09:39,087 INFO client.py Получено сообщение от пользователя TestSender2:
+fgjghdjghj
+2022-01-31 23:10:03,241 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643659803.241503, 'from': 'TestSender1', 'to': 'TestSender2', 'mess_text': 'dsadasd'}
+2022-01-31 23:10:03,242 INFO client.py Отправлено сообщение для пользователя TestSender2
+2022-01-31 23:10:03,272 INFO client_2.py Получено сообщение от пользователя TestSender1:
+dsadasd
+2022-01-31 23:12:24,509 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции ClientApp().
+2022-01-31 23:12:24,588 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:12:24,589 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 23:12:25,092 DEBUG client_2.py Разбор сообщения от сервера: {'response': 400, 'error': 'Имя пользователя уже занято.'}
+2022-01-31 23:12:25,093 INFO client_2.py Принят ответ от сервера 400 : Имя пользователя уже занято.
+2022-01-31 23:12:25,093 CRITICAL client_2.py Потеряно соединение с сервером.
+2022-01-31 23:12:25,094 DEBUG client_2.py Запущены процессы
+2022-01-31 23:12:36,316 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 23:12:36,334 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:12:36,335 DEBUG client.py Сформировано presence сообщение для пользователя TestSender1
+2022-01-31 23:12:36,335 DEBUG client.py Разбор сообщения от сервера: {'response': 400, 'error': 'Имя пользователя уже занято.'}
+2022-01-31 23:12:36,336 INFO client.py Принят ответ от сервера 400 : Имя пользователя уже занято.
+2022-01-31 23:12:36,336 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-31 23:12:36,337 DEBUG client.py Запущены процессы
+2022-01-31 23:13:15,160 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 23:13:15,176 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:13:15,178 DEBUG client.py Сформировано presence сообщение для пользователя TestSender1
+2022-01-31 23:13:15,682 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 23:13:15,682 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-31 23:13:15,683 DEBUG client.py Запущены процессы
+2022-01-31 23:13:19,242 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции ClientApp().
+2022-01-31 23:13:19,260 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:13:19,261 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 23:13:19,268 DEBUG client_2.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 23:13:19,268 INFO client_2.py Принят ответ от сервера 200 : OK
+2022-01-31 23:13:19,269 DEBUG client_2.py Запущены процессы
+2022-01-31 23:13:49,539 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643660029.539308, 'from': 'TestSender2', 'to': 'TestSender2', 'mess_text': 'sgfdhdf'}
+2022-01-31 23:13:49,540 INFO client_2.py Отправлено сообщение для пользователя TestSender2
+2022-01-31 23:13:50,010 INFO client_2.py Получено сообщение от пользователя TestSender2: sgfdhdf 
+
+2022-01-31 23:14:17,294 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643660057.294275, 'from': 'TestSender2', 'to': 'TestSender1', 'mess_text': 'asfds'}
+2022-01-31 23:14:17,294 INFO client_2.py Отправлено сообщение для пользователя TestSender1
+2022-01-31 23:14:17,688 INFO client.py Получено сообщение от пользователя TestSender2:
+asfds
+2022-01-31 23:14:42,578 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643660082.578159, 'from': 'TestSender2', 'to': 'TestSender2', 'mess_text': 'wafsdbgfdg'}
+2022-01-31 23:14:42,578 INFO client_2.py Отправлено сообщение для пользователя TestSender2
+2022-01-31 23:14:42,864 INFO client_2.py Получено сообщение от пользователя TestSender2: wafsdbgfdg 
+
+2022-01-31 23:14:53,293 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-31 23:14:53,293 CRITICAL client_2.py Потеряно соединение с сервером.
+2022-01-31 23:16:14,671 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 23:16:14,699 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:16:14,700 DEBUG client.py Сформировано presence сообщение для пользователя TestSender1
+2022-01-31 23:16:15,206 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 23:16:15,207 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-31 23:16:15,209 DEBUG client.py Запущены процессы
+2022-01-31 23:16:24,753 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции ClientApp().
+2022-01-31 23:16:24,773 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:16:24,774 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 23:16:24,775 DEBUG client_2.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 23:16:24,775 INFO client_2.py Принят ответ от сервера 200 : OK
+2022-01-31 23:16:24,776 DEBUG client_2.py Запущены процессы
+2022-01-31 23:16:42,780 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643660202.7805362, 'from': 'TestSender1', 'to': 'TestSender1', 'mess_text': 'asfdasfdsgdfsnjghku'}
+2022-01-31 23:16:42,781 INFO client.py Отправлено сообщение для пользователя TestSender1
+2022-01-31 23:16:42,910 INFO client.py Получено сообщение от пользователя TestSender1:
+asfdasfdsgdfsnjghku
+2022-01-31 23:17:00,196 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643660220.1967292, 'from': 'TestSender1', 'to': 'TestSender2', 'mess_text': 'sdgfklsnlvgknw'}
+2022-01-31 23:17:00,197 INFO client.py Отправлено сообщение для пользователя TestSender2
+2022-01-31 23:17:00,533 INFO client_2.py Получено сообщение от пользователя TestSender1:
+sdgfklsnlvgknw
+2022-01-31 23:17:14,922 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643660234.922261, 'from': 'TestSender2', 'to': 'TestSender1', 'mess_text': 'sdvsdv'}
+2022-01-31 23:17:14,922 INFO client_2.py Отправлено сообщение для пользователя TestSender1
+2022-01-31 23:17:15,131 INFO client.py Получено сообщение от пользователя TestSender2:
+sdvsdv
+2022-01-31 23:17:23,573 CRITICAL client.py Потеряно соединение с сервером.
+2022-01-31 23:17:23,573 CRITICAL client_2.py Потеряно соединение с сервером.
+2022-01-31 23:18:08,200 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender1'] функции ClientApp().
+2022-01-31 23:18:08,233 INFO client.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:18:08,237 DEBUG client.py Сформировано presence сообщение для пользователя TestSender1
+2022-01-31 23:18:08,738 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 23:18:08,739 INFO client.py Принят ответ от сервера 200 : OK
+2022-01-31 23:18:08,740 DEBUG client.py Запущены процессы
+2022-01-31 23:18:12,593 DEBUG loging_decos.py Запущено приложение ClientApp,c параметрами ['/Users/dmitry/Desktop/Programms/geekbrains/10-cliens_server_applications/client-server-app/Lesson_8/client_2.py', 'client.py', '192.168.0.49', '8888', '-u', 'TestSender2'] функции ClientApp().
+2022-01-31 23:18:12,625 INFO client_2.py Запущен клиент с парамертами: адрес сервера: 192.168.0.49, порт: 8888
+2022-01-31 23:18:12,627 DEBUG client_2.py Сформировано presence сообщение для пользователя TestSender2
+2022-01-31 23:18:13,132 DEBUG client_2.py Разбор сообщения от сервера: {'response': 200}
+2022-01-31 23:18:13,133 INFO client_2.py Принят ответ от сервера 200 : OK
+2022-01-31 23:18:13,133 DEBUG client_2.py Запущены процессы
+2022-01-31 23:18:35,068 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643660315.068738, 'from': 'TestSender1', 'to': 'TestSender1', 'mess_text': 'sadafd'}
+2022-01-31 23:18:35,069 INFO client.py Отправлено сообщение для пользователя TestSender1
+2022-01-31 23:18:35,294 INFO client.py Получено сообщение от пользователя TestSender1:
+sadafd
+2022-01-31 23:18:57,855 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643660337.855246, 'from': 'TestSender2', 'to': 'fafasda', 'mess_text': ''}
+2022-01-31 23:18:57,881 INFO client_2.py Отправлено сообщение для пользователя fafasda
+2022-01-31 23:19:12,522 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643660352.522114, 'from': 'TestSender2', 'to': 'TestSender1', 'mess_text': 'dasfdasf'}
+2022-01-31 23:19:12,522 INFO client_2.py Отправлено сообщение для пользователя TestSender1
+2022-01-31 23:19:12,567 INFO client.py Получено сообщение от пользователя TestSender2:
+dasfdasf
+2022-01-31 23:19:20,627 DEBUG client_2.py Сформирован словарь сообщения: {'action': 'message', 'time': 1643660360.627274, 'from': 'TestSender2', 'to': 'TestSender2', 'mess_text': 'fsdfvdsvgfd'}
+2022-01-31 23:19:20,627 INFO client_2.py Отправлено сообщение для пользователя TestSender2
+2022-01-31 23:19:21,116 INFO client_2.py Получено сообщение от пользователя TestSender2:
+fsdfvdsvgfd
